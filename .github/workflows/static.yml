@@ -51,7 +51,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'dist'  # This should point to the dist folder, not the entire repo.
+          path: './dist'  # This should point to the dist folder, not the entire repo.
 
       - name: Deploy to GitHub Pages
         id: deployment
